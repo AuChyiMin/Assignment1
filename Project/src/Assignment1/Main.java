@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int option = 0;
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); //1.2 Pre-Define Class
 		
 		System.out.println("==========WELCOME TO CHILDREN'S PROTECTION SOCIETY==========");
 		ChildrenProtectionSociety cps = new ChildrenProtectionSociety();
