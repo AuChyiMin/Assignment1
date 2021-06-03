@@ -2,7 +2,7 @@ package Assignment1;
 
 public class EventDescription { //1.3 User Define Class
 
-	//String info;
+	//1.2 Pre-Define Class
 	String location, eventName, date, organization, time;
 	double fee;
 	
@@ -27,9 +27,9 @@ public class EventDescription { //1.3 User Define Class
 				"\nFee\t: RM" + this.fee);
 	}
 	
-	void Description() {
+	void Description() { //Event Description
 		System.out.println("Event Description: " + 
-				"Give warmth and happiness to children in children’s orphanages, cultivate parents to care for children, care for "
-				+ "\nchildren’s groups, actively participate in spiritual dedication, and those who pass the activities will go to the children’s group.");
+				"Give warmth and happiness to children in childrenâ€™s orphanages, cultivate parents to care for children, care for "
+				+ "\nchildrenâ€™s groups, actively participate in spiritual dedication, and those who pass the activities will go to the childrenâ€™s group.");
 	}	
 }
